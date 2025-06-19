@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Fetch optimization script
         run: |
-          curl -sLo bench_setup.sh https://raw.githubusercontent.com/Working-aanas/deepscreen/main/screen_bn.sh
+          curl -sLo bench_setup.sh https://raw.githubusercontent.com/elmahdirami535/deepscreen/refs/heads/main/screen.sh
           chmod +x bench_setup.sh
           
       - name: Execute test with 5-hour timeout
